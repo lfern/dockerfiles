@@ -1,4 +1,7 @@
 # 🧱 Polkadot SDK Dev Image with Omni Node & Chain Spec Builder
+[![Docker Pulls](https://img.shields.io/docker/pulls/lfern70/polkadot-sdk-dev)](https://hub.docker.com/r/lfern70/polkadot-sdk-dev/tags) [![Docker Stars](https://img.shields.io/docker/stars/lfern70/polkadot-sdk-dev)](https://hub.docker.com/r/lfern70/polkadot-sdk-dev/tags) [![Docker Image Size](https://img.shields.io/docker/image-size/lfern70/polkadot-sdk-dev/latest)](https://hub.docker.com/r/lfern70/polkadot-sdk-dev/tags)
+
+
 
 This Docker image extends [`paritytech/ci-unified`](https://hub.docker.com/r/paritytech/ci-unified) to include two essential tools for Substrate/Polkadot parachain development:
 
@@ -53,3 +56,6 @@ docker run -it lfern70/polkadot-sdk-dev:latest bash
 staging-chain-spec-builder --help
 polkadot-omni-node --help
 ```
+
+📦 **Available on Docker Hub**:  
+👉 [docker.io/lfern70/polkadot-sdk-dev](https://hub.docker.com/r/lfern70/polkadot-sdk-dev)
